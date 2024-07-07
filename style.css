@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+#block-heights {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.output-section {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.block, .water, .empty {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.block {
+    background-color: gray;
+}
+
+.water {
+    background-color: blue;
+}
+
+.empty {
+    background-color: white;
+}
